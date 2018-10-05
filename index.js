@@ -10,20 +10,18 @@ function theBeatlesPlay(musicians, instruments) {
     for (let i = 0; i < 4; i++) {
 	    var b = accessBeatle(i);
 	    var n = accessInstrument(i);
-		 bi.push("${b} plays the ${n}.")
+		 bi.push("${b} plays the ${n}.");
 	}
 	
 }
 
  function johnLennonFacts(facts) {
-   const gotFacts
+   const gotFacts = [ ];
    while (i <arrayfacts.length) {
    gotFacts.push(`${facts[i]}!!!`)
    i++;
-   ${jlf} + " !!!";
-   return; 
 		}
-  
+  return gotFacts;
 }
 
 
