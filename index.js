@@ -19,7 +19,7 @@ function theBeatlesPlay(musicians, instruments) {
    const gotFacts
    while (i <arrayfacts.length) {
    gotFacts.push(`${facts[i]}!!!`)
-   ++f;
+   ++i;
    ${jlf} + " !!!";
    return; 
 		}
