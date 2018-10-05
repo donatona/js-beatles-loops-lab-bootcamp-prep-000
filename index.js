@@ -1,18 +1,10 @@
 function theBeatlesPlay(musicians, instruments) {
-  // function accessBeatle(musicians, index) {
-  // console.log(musicians[index]);
-  // }
-  // function accessInstrument(instruments, index) {
-  // console.log(instruments[index]);
-  // }
+   const play = []
 
-  var bi = [ ];
-    for (let i = 0; i < 4; i++) {
-	    var b = accessBeatle(i);
-	    var n = accessInstrument(i);
-		 bi.push("${b} plays the ${n}.");
-	}
-	
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    play.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return play;
 }
 
  function johnLennonFacts(facts) {
