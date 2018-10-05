@@ -1,10 +1,10 @@
 function theBeatlesPlay(musicians, instruments) {
-  function accessBeatle(musicians, index) {
-   console.log(musicians[index]);
-   }
-  function accessInstrument(instruments, index) {
-   console.log(instruments[index]);
-   }
+  // function accessBeatle(musicians, index) {
+  // console.log(musicians[index]);
+  // }
+  // function accessInstrument(instruments, index) {
+  // console.log(instruments[index]);
+  // }
 
   var bi = [ ];
     for (let i = 0; i < 4; i++) {
